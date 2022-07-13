@@ -7,6 +7,7 @@ public class InterfazUsuario {
         this.oracleDatabase = new OracleDatabase();
     }
 
+
     public void saveEmployeeId(String empId) {
         oracleDatabase.saveEmpIdInDatabase(empId);
     }
