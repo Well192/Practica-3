@@ -1,5 +1,6 @@
 package Solid.SRP;
-/*
+import Solid.SRP.*;
+
 public class Cliente {
     public static void main(String[] args) {
         System.out.println("Demostracion de SRP");
@@ -20,10 +21,10 @@ public class Cliente {
         emp.displayEmpDetail();
 
         //Genera el ID
-        // Completa
+        emp.setEmpId(GeneradorIDEmpleado.generateEmpId(emp.getFirstName()));
+        System.out.println("El ID del empleado es: "+ emp.getEmpId());
 
         // Verifica el nivel laboral
-        // Completa
- //   }
-//}
-*/
+        System.out.println("Este empleado es un" + " empleado " + SeniorityChecker.checkSeniority(emp.getExperienceInYears()));
+    }
+}
