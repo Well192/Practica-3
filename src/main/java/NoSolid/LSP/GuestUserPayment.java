@@ -1,6 +1,16 @@
 package NoSolid.LSP;
-/*
+
+
 public class GuestUserPayment implements Payment{
- // ...completa
+
+    @Override
+    public void previousPaymentInfo() {
+
+    }
+
+    @Override
+    public void newPayment() {
+
+    }
 }
-*/
+
