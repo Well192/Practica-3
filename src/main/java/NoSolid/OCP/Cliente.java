@@ -13,7 +13,6 @@ public class Cliente {
             System.out.println(estudiante);
         }
 
-
         System.out.println("Distinciones:");
         DistinctionDecider distinctionDecider = new DistinctionDecider();
         // Evalua las distinciones
