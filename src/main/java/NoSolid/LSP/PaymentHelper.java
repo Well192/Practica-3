@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PaymentHelper {
-    List<Payment> payments = new ArrayList<Payment>();
+    List<Payment> payments = new ArrayList<>();
 
     public void addUser(Payment user){
         payments.add(user);
