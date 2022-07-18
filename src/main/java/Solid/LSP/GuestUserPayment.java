@@ -1,8 +1,6 @@
 package Solid.LSP;
 
 public class GuestUserPayment implements NewPayment{
-
-
     String name;
     public GuestUserPayment() {
         this.name = "guest";
