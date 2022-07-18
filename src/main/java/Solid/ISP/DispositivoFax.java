@@ -1,7 +1,7 @@
 package Solid.ISP;
 
-/*
 interface DispositivoFax {
-   ...completa
+     default void sendFax(){
+
+     }
 }
-*/

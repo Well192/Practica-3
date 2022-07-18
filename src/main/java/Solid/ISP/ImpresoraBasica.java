@@ -1,7 +1,12 @@
 package Solid.ISP;
 
-/*
+
 public class ImpresoraBasica implements Impresora{
-    ...completa
+    public void printDocument(){
+        System.out.println("La impresora basica imprime un documento.");
+    }
+
+    public void fotocopiado(){
+        System.out.println("La impresora basica está fotocopiando.");
+    }
 }
-*/
