@@ -1,6 +1,6 @@
 package NoSolid.ISP;
 
-interface Impresora extends Fax {
+interface Impresora {
     void printDocument();
 
     void sendFax(Fax faxType);
